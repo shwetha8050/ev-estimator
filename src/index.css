@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #ffffff; /* ✅ FIX: was rgba(255,255,255,0.87) */
+  background-color: #0f172a; /* ✅ darker premium background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: #7aa2ff; /* ✅ brighter */
+  text-decoration: inherit;
+}
+a:hover {
+  color: #a5b4ff;
+}
+
+/* Body */
+body {
+  margin: 0;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+/* Heading */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.6); /* ✅ glow */
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2a2a2a; /* ✅ brighter than #1a1a1a */
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  border-color: #7aa2ff;
+  background-color: #333;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto rgba(122,162,255,0.6);
+}
+
+/* OPTIONAL: Highlight important values like "81 km" */
+.highlight {
+  color: #22d3ee;
+  font-weight: 700;
+  text-shadow: 0 0 12px rgba(34,211,238,0.8);
+}
+
+/* OPTIONAL: Subtext (like 'remaining energy') */
+.subtext {
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 2px;
+}
