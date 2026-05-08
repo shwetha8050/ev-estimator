@@ -287,7 +287,7 @@ export default function EVRangeEstimator() {
         ::-webkit-scrollbar-thumb { background: rgba(0,200,255,0.2); border-radius: 3px; }
         @media (max-width: 768px) {
           .twoPartitions {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr !important;
           }
         }
       `}</style>
