@@ -161,7 +161,7 @@ export default function EVRangeEstimator() {
   }),
   mainGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",  // Responsive: stacks on small screens
+    gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",  // Responsive: perfectly scales down to any phone size
     gap: "20px",
   },
   sliderLabel: {
